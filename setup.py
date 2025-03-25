@@ -5,11 +5,11 @@ with open('requirements.txt') as f:
     requirements = f.read().splitlines()
 
 setup(
-    name='your_package_name',  # Replace with your package name
-    version='0.1.0',           # Replace with your package version
-    author='Your Name',        # Replace with your name
-    author_email='your.email@example.com',  # Replace with your email
-    description='A brief description of your package',
+    name='Credit_Card_Fraud_Detection',  # Replace with your package name
+    version='0.0.1',           # Replace with your package version
+    author='Sejal',        # Replace with your name
+    author_email='sejalofficial1507@gmail.com',  # Replace with your email
+    description='A project for detecting whether there will be fraud or not',
     packages=find_packages(),
     install_requires=requirements,
 )
